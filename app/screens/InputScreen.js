@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, Button } from 'react-native';
+import { StyleSheet, SafeAreaView, Button,Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker'
 
 class InputScreen extends React.Component {
@@ -10,6 +10,7 @@ class InputScreen extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
+        <Text>hhh</Text>
         <Picker
           selectedValue={this.state.country}
           style={styles.picker}
