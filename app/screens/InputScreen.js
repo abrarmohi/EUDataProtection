@@ -10,7 +10,6 @@ class InputScreen extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Text>hhh</Text>
         <Picker
           selectedValue={this.state.country}
           style={styles.picker}
