@@ -26,7 +26,7 @@ class HomeScreen extends React.Component {
                 />
                 <Mybutton
                 title="About Us"
-                //customClick={() => this.props.navigation.navigate('Register')}
+                customClick={() => this.props.navigation.navigate('AboutUs')}
                 />
 
             </SafeAreaView>
