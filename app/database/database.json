@@ -2,6 +2,7 @@
     "country": {
         "germany": {
             "name": "Germany",
+            "code": "DE",
             "dataCommissioner": "Mr Prof. Ulrich Kelber",
             "nationalSupervisoryAuthority": "Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit",
             "address": "Graurheindorfer Straße 153, 53117 Bonn",
@@ -15,6 +16,7 @@
         },
         "denmark": {
             "name": "Denmark",
+            "code": "DK",
             "dataCommissioner": "Ms Cristina Angela Gulisano",
             "nationalSupervisoryAuthority": "",
             "address": "Carl Jacobsens Vej 35, 2500 Valby",
