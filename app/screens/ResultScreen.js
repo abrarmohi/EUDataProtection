@@ -12,73 +12,142 @@ class ResultScreen extends React.Component {
       <SafeAreaView style={styles.container}>
         <View style={styles.container1}>
           <View style={styles.container2}>
-            <Text numberOfLines={1} style={{ fontSize: 23 }}>
+            <Text numberOfLines={1} style={styles.headline}>
               {country.name.toUpperCase()}
             </Text>
             <View style={styles.container3}>
-              <Text style={styles.textHeader}> Capital: </Text>
-              <Text style={styles.text}> {country.capital}</Text>
+              <Text style={styles.textHeader2}> CAPITAL </Text>
+              <Text style={styles.text}>{country.capital}</Text>
             </View>
             <View style={styles.container3}>
-              <Text style={styles.textHeader}> Population: </Text>
-              <Text style={styles.text}> {country.population}</Text>
+              <Text style={styles.textHeader2}> POPULATION </Text>
+              <Text style={styles.text}>{country.population}</Text>
             </View>
           </View>
-          <Flag id={country.code} />
+          <View style={styles.flagBox}>
+            <Flag id={country.code} />
+          </View>
         </View>
-        <Text>Data Commissioner: {country.dataCommissioner}</Text>
-        <Text>
-          National Supervisory Authority: {country.nationalSupervisoryAuthority}
-        </Text>
-        <Text>Address: {country.address}</Text>
-        <Text>Telephone: {country.telephone}</Text>
-        <Text>E-Mail: {country.email}</Text>
-        <Text>Homepage: {country.homepage}</Text>
-        <Text>Specififc Law: {country.specificLaw}</Text>
-        <Text>Most Recent Law Cases: {country.mostRecentLawCases}</Text>
+        <View style={styles.container1}>
+          <View style={styles.container2}>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader1}> DATA COMMISSIONER </Text>
+              <Text style={styles.text1}>{country.dataCommissioner}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}>
+                {" "}
+                {"National Supervisory Authority".toUpperCase()}{" "}
+              </Text>
+              <Text style={styles.text}>
+                {country.nationalSupervisoryAuthority}
+              </Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> ADRESS </Text>
+              <Text style={styles.text}>{country.address}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> TELEPHONE </Text>
+              <Text style={styles.text}>{country.telephone}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> E-MAIL </Text>
+              <Text style={styles.text}>{country.email}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> HOMEPAGE </Text>
+              <Text style={styles.text}>{country.homepage}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> SPECIFIC LAW </Text>
+              <Text style={styles.text}>{country.specificLaw}</Text>
+            </View>
+            <View style={styles.container3}>
+              <Text style={styles.textHeader}> MOST RECENT LAW CASES </Text>
+              <Text style={styles.text}>{country.mostRecentLawCases}</Text>
+            </View>
+          </View>
+        </View>
       </SafeAreaView>
     );
   }
 }
 
+//const mainColor = "#003399";
+const mainColor = "#fff";
+//const tertColor = "#fff";
+const tertColor = "#000";
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: tertColor,
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "stretch",
   },
   container1: {
-    backgroundColor: "#fff",
+    backgroundColor: tertColor,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "stretch",
     flexWrap: "wrap",
-    padding: 27,
+    paddingTop: 27,
+    paddingLeft: 27,
+    paddingRight: 27,
   },
   container2: {
-    flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: tertColor,
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "flex-start",
   },
   container3: {
-    backgroundColor: "#fff",
+    backgroundColor: tertColor,
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "flex-start",
   },
+  flagBox: {
+    backgroundColor: mainColor,
+    padding: 3,
+    borderRadius: 3,
+    alignSelf: "flex-start",
+  },
+  textHeader2: {
+    backgroundColor: mainColor,
+    borderRadius: 7,
+    color: tertColor,
+    fontSize: 14,
+  },
   textHeader: {
-    backgroundColor: "#003399",
-    borderRadius: 10,
-    color: "#fff",
-    textAlign: "center",
+    marginTop: 17,
+    backgroundColor: mainColor,
+    borderRadius: 7,
+    color: tertColor,
+    fontSize: 14,
+  },
+  textHeader1: {
+    marginTop: 17,
+    backgroundColor: mainColor,
+    borderRadius: 7,
+    color: tertColor,
+    fontSize: 19,
   },
   text: {
-    color: "#003399",
-    textAlign: "center",
+    marginLeft: 3,
+    color: mainColor,
+    fontSize: 14,
+  },
+  text1: {
+    marginLeft: 3,
+    color: mainColor,
+    fontSize: 19,
+  },
+  headline: {
+    color: mainColor,
+    fontSize: 25,
   },
 });
 
