@@ -1,6 +1,6 @@
-import React from "react";
-import { StyleSheet, SafeAreaView, Button } from "react-native";
-import { Picker } from "@react-native-picker/picker";
+import React from 'react';
+import { StyleSheet, SafeAreaView, Button,Text } from 'react-native';
+import { Picker } from '@react-native-picker/picker'
 
 class InputScreen extends React.Component {
   state = {
