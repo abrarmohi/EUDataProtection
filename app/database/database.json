@@ -2,6 +2,7 @@
     "country": {
         "austria": {
             "name": "Austria",
+            "code": "AT",
             "dataCommissioner": "Dr. Andrea Jelinek",
             "nationalSupervisoryAuthority": "Austria Data Protection Authority (Östereichische Datenschutzbehörde)",
             "address": "Österreichische Datenschutzbehörde Barichgasse 40-42, 1030 Vienna",
@@ -15,6 +16,7 @@
         },
         "belgium": {
             "name": "Belgium",
+            "code": "BE",
             "dataCommissioner": "Mr David Stevens",
             "nationalSupervisoryAuthority": "Autorité de la protection des données -Gegenvensbeschermingsautoriteit (APD-GBA)",
             "address": "Rue de la Presse 35 – Drukpersstraat 35, 1000 Bruxelles - Brussel",
@@ -28,6 +30,7 @@
         },
         "bulgaria": {
             "name": "Bulgaria",
+            "code": "BG",
             "dataCommissioner": "Mr Ventsislav Karadjov",
             "nationalSupervisoryAuthority": "Commission for Personal Data Protection",
             "address": "2, Prof. Tsvetan Lazarov blvd, Sofia 1592",
@@ -41,6 +44,7 @@
         },
         "croatia": {
             "name": "Croatia",
+            "code": "HR",
             "dataCommissioner": "Mr Zdravko Vukić",
             "nationalSupervisoryAuthority": "Croatian Personal Data Protection Agency",
             "address": "Selska Cesta 136, 10000 Zagreb",
@@ -54,6 +58,7 @@
         },
         "cyprus": {
             "name": "Cyprus",
+            "code": "CY",
             "dataCommissioner": "Ms Irene Loizidou Nikolaidou",
             "nationalSupervisoryAuthority": "Commissioner for Personal Data Protection",
             "address": "1 lasons Street, 1082 Nicosia",
@@ -67,6 +72,7 @@
         },
         "czechRepublic": {
             "name": "Czech Republic",
+            "code": "CZ",
             "dataCommissioner": "Mr Jiří Kaucký",
             "nationalSupervisoryAuthority": "Office for Personal Data Protection",
             "address": "Pplk. Sochora 27, 170 00 Prague 7",
@@ -80,6 +86,7 @@
         },
         "denmark": {
             "name": "Denmark",
+            "code": "DK",
             "dataCommissioner": "Ms Cristina Angela Gulisano",
             "nationalSupervisoryAuthority": "",
             "address": "Carl Jacobsens Vej 35, 2500 Valby",
@@ -93,6 +100,7 @@
         },
         "estonia": {
             "name": "Estonia",
+            "code": "EE",
             "dataCommissioner": "Ms Pille Lehis",
             "nationalSupervisoryAuthority": "Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon)",
             "address": "Tatari 39, 10134 Tallinn",
@@ -106,6 +114,7 @@
         },
         "finland": {
             "name": "Finland",
+            "code": "FI",
             "dataCommissioner": "Mr Reijo Aarnio",
             "nationalSupervisoryAuthority": "Office of the Data Protection Ombudsman",
             "address": "P.O. Box 800 FI-00531 Helsinki",
@@ -119,6 +128,7 @@
         },
         "france": {
             "name": "France",
+            "code": "FR",
             "dataCommissioner": "Ms Marie-Laure Denis",
             "nationalSupervisoryAuthority": "Commission Nationale de l'Informatique et des Libertés - CNL",
             "address": "3 Place de Fontenoy TSA 80715 – 75334 Paris, Cedex 07",
@@ -132,6 +142,7 @@
         },
         "germany": {
             "name": "Germany",
+            "code": "DE",
             "dataCommissioner": "Mr Prof. Ulrich Kelber",
             "nationalSupervisoryAuthority": "Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit",
             "address": "Graurheindorfer Straße 153, 53117 Bonn",
@@ -145,6 +156,7 @@
         },
         "greece": {
             "name": "Greece",
+            "code": "GR",
             "dataCommissioner": "Mr Konstantinos Menoudakos",
             "nationalSupervisoryAuthority": "Hellenic Data Protection Authority",
             "address": "Kifisias Av. 1-3, PC 11523 Ampelokipi Athens",
@@ -158,6 +170,7 @@
         },
         "hungary": {
             "name": "Hungary",
+            "code": "HU",
             "dataCommissioner": "Dr Attila Péterfalvi",
             "nationalSupervisoryAuthority": "Hungarian National Authority for Data Protection and Freedom of Information",
             "address": "Falk Miksa utca 9-11 H-1055 Budapest",
@@ -171,6 +184,7 @@
         },
         "ireland": {
             "name": "Ireland",
+            "code": "IE",
             "dataCommissioner": "Ms Helen Dixon",
             "nationalSupervisoryAuthority": "Data Protection Commission",
             "address": "21 Fitzwilliam Square Dublin 2D02 RD28 Ireland",
@@ -184,6 +198,7 @@
         },
         "italy": {
             "name": "Italy",
+            "code": "IT",
             "dataCommissioner": "Prof. Pasquale Stanzione",
             "nationalSupervisoryAuthority": "Garante per la Protezione dei Dati Personali (the “Garante”)",
             "address": "Garante per la protezione dei dati personaliPiazza Venezia 1100187, Roma",
@@ -197,6 +212,7 @@
         },
         "latvia": {
             "name": "Latvia",
+            "code": "LV",
             "dataCommissioner": "Ms Jekaterina Macuka",
             "nationalSupervisoryAuthority": "Data State Inspectorate",
             "address": "Data State Inspectorate Blaumana str. 11/13-151011, Riga",
@@ -210,6 +226,7 @@
         },
         "lithuania": {
             "name": "Lithuania",
+            "code": "LT",
             "dataCommissioner": "Mr Raimondas Andrijauskas",
             "nationalSupervisoryAuthority": "State Data Protection Inspectorate",
             "address": "The State Data Protection Inspectorate (the “Inspectorate”) L. Sapiegos g. 17 LT-10312 Vilnius Lithuania",
@@ -223,6 +240,7 @@
         },
         "luxembourg": {
             "name": "Luxembourg",
+            "code": "LU",
             "dataCommissioner": "Ms Tine A. LARSEN",
             "nationalSupervisoryAuthority": "Commission Nationale pour le Protection des Données (the “CNPD”)",
             "address": "Commission Nationale pour la Protection des Données 15, Boulevard du JazzL-4370 Belvaux",
@@ -236,6 +254,7 @@
         },
         "malta": {
             "name": "Malta",
+            "code": "MT",
             "dataCommissioner": "Mr Ian Deguara",
             "nationalSupervisoryAuthority": "Office of the Information and Data Protection Commissioner",
             "address": "Office of the Information and Data Protection Commissioner Second Floor, Airways House High Street, Sliema SLM 1549",
@@ -249,6 +268,7 @@
         },
         "netherlands": {
             "name": "Netherlands",
+            "code": "NL",
             "dataCommissioner": "A. Wolfsen LL.M.",
             "nationalSupervisoryAuthority": "Dutch Data Protection Authority (Autoriteit Persoonsgegevens)",
             "address": "Autoriteit Persoonsgegevens PO Box 93374, 2509 AJ Den Haag Netherlands",
@@ -262,6 +282,7 @@
         },
         "norway": {
             "name": "Norway",
+            "code": "NO",
             "dataCommissioner": "Mr Bjørn Erik THON",
             "nationalSupervisoryAuthority": "Datatilsynet",
             "address": "DatatilsynetTollbugata 30152 Oslo",
@@ -275,6 +296,7 @@
         },
         "poland": {
             "name": "Poland",
+            "code": "PL",
             "dataCommissioner": "Mr Jan NOWAK",
             "nationalSupervisoryAuthority": "Urząd Ochrony Danych Osobowych (Personal Data Protection Office)",
             "address": "Urząd Ochrony Danych Osobowych (Personal Data Protection Office) ul. Stawki 200-193 Warsaw",
@@ -288,6 +310,7 @@
         },
         "portugal": {
             "name": "Portugal",
+            "code": "PT",
             "dataCommissioner": "Dr. Filipa CALVÃO",
             "nationalSupervisoryAuthority": "Comissão Nacional de Proteção de Dados - CNPD",
             "address": "Comissão Nacional de Proteção de Dados - CNPD Av. D. Carlos I, 134, 1º 1200-651 Lisboa",
@@ -301,6 +324,7 @@
         },
         "romania": {
             "name": "Romania",
+            "code": "RO",
             "dataCommissioner": "Ms Ancuţa Gianina OPRE",
             "nationalSupervisoryAuthority": "The National Supervisory Authority for Personal Data Processing",
             "address": "The National Supervisory Authority for Personal Data Processing B-dul Magheru 28-30 Sector 1, BUCUREŞTI",
@@ -314,6 +338,7 @@
         },
         "slovakia": {
             "name": "Slovakia",
+            "code": "SK",
             "dataCommissioner": "Ms. Sona Potheova",
             "nationalSupervisoryAuthority": "Office for Personal Data Protection of the Slovak Republic",
             "address": "Office for Personal Data Protection of the Slovak Republic Hraničná 12820 07 Bratislava 27",
@@ -327,6 +352,7 @@
         },
         "slovenia": {
             "name": "Slovenia",
+            "code": "SI",
             "dataCommissioner": "Ms Mojca PRELESNIK",
             "nationalSupervisoryAuthority": "Information Commissioner of the Republic of Slovenia",
             "address": "Information Commissioner of the Republic of Slovenia Dunajska 22, 1000 Ljubljana",
@@ -340,6 +366,7 @@
         },
         "spain": {
             "name": "Spain",
+            "code": "ES",
             "dataCommissioner": "Ms María del Mar España Martí",
             "nationalSupervisoryAuthority": "Agencia Española de Protección de Datos (AEPD)",
             "address": "Agencia Española de Protección de Datos (AEPD) C/Jorge Juan, 6 28001 Madrid",
@@ -353,6 +380,7 @@
         },
         "sweden": {
             "name": "Sweden",
+            "code": "SE",
             "dataCommissioner": "Ms Lena Lindgren Schelin",
             "nationalSupervisoryAuthority": "Datainspektionen",
             "address": "Datainspektionen Drottninggatan 29, 5th Floor Box 8114 104 20 Stockholm",
