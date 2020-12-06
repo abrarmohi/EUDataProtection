@@ -74,10 +74,10 @@ class ResultScreen extends React.Component {
   }
 }
 
-//const mainColor = "#003399";
-const mainColor = "#fff";
-//const tertColor = "#fff";
-const tertColor = "#000";
+const mainColor = "#003399";
+//const mainColor = "#fff";
+const tertColor = "#fff";
+//const tertColor = "#000";
 
 const styles = StyleSheet.create({
   container: {
