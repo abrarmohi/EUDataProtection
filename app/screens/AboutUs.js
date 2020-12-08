@@ -10,10 +10,8 @@ class AboutUs extends React.Component {
 
     <SafeAreaView style={styles.container}>
       <View style={styles.sides}>
-      <TouchableOpacity style={styles.title}>
-      <FontAwesome5 name={'arrow-left'} size={20} color="black" />
-      </TouchableOpacity>   
-      <Text style={styles.titletext} >   About us:</Text>
+      
+      <Text style={styles.titletext} >About Us</Text>
       </View>
       <View style={styles.top}>
         <Text>Manager:</Text>
@@ -56,7 +54,7 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     padding: 20,
     flex: 1,
-    backgroundColor: 'lightblue',
+    backgroundColor: 'white',
     justifyContent: 'space-between'
   },
   sides:{
@@ -64,11 +62,14 @@ const styles = StyleSheet.create({
     
   },
   titletext:{
+    backgroundColor: '#08146e',  
+    color: '#ffffff',
     fontSize: 20,
+    height: 40,
 //    justifyContent: "center"
   },
   title:{
-    backgroundColor: '#FF0000',  
+    backgroundColor: '#cbccd1',  
     padding: 10,
     height: 40,
     width: 40
@@ -77,21 +78,21 @@ const styles = StyleSheet.create({
   top: {
     padding: 10,
     flex: 0.25,
-    backgroundColor: "white",
+    backgroundColor: "#cbccd1",
     borderWidth: 5,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20
   },
   middle: {
     padding: 10,
+    backgroundColor: "#cbccd1",
     flex: 0.27,
-    backgroundColor: "#ff39",
     borderWidth: 5
   },
   bottom: {
     padding: 10,
+    backgroundColor: "#cbccd1",
     flex: 0.31,
-    backgroundColor: "#DB7093",
     borderWidth: 5,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20
