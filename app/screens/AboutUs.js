@@ -8,7 +8,7 @@ class AboutUs extends React.Component {
   render(){ return(
     <SafeAreaView style={styles.container}>
       <View style={styles.top}>
-        <Text>Manager:</Text>
+        <Text style = {{fontWeight: "bold", fontSize: 20 }} >Manager:</Text>
         <Text>Prof. Dr. Dieter Kopetz</Text>
         <Text>dieter.kopetz@hochschule-rhein-waal.de</Text>
         <Text>Friedrich-Heinrich-Allee 25</Text>
@@ -16,7 +16,7 @@ class AboutUs extends React.Component {
         <Text>+49 2842 908 25 0</Text>
       </View>
       <View style={styles.middle}>
-        <Text>Developers:</Text>
+        <Text style = {{fontWeight: "bold", fontSize: 20 }}>Developers:</Text>
         <Text>Abdalrahman Elmessiry</Text>
         <Text>Abrar Mohi Shafee</Text>
         <Text>Ahmed Khattab</Text>
@@ -25,7 +25,7 @@ class AboutUs extends React.Component {
         <Text>Lakhan Radhakrishna Vaishnav</Text>
       </View>
       <View style={styles.bottom}>
-        <Text>Project members:</Text>
+        <Text style = {{fontWeight: "bold", fontSize: 20 }}>Project members:</Text>
         <Text>Arzu Yaman</Text>
         <Text>Daniel Adepitan Onitiri</Text>
         <Text>John Pingpoh Chokeh</Text>
@@ -55,21 +55,21 @@ const styles = StyleSheet.create({
     padding: 10,
     flex: 0.26,
     backgroundColor: "#357EC7",
-    borderWidth: 5,
+    borderWidth: 4,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20
   },
   middle: {
     padding: 10,
-    flex: 0.29,
+    flex: 0.3,
     backgroundColor: "#488AC7",
-    borderWidth: 5
+    borderWidth: 4
   },
   bottom: {
     padding: 10,
-    flex: 0.42,
+    flex: 0.43,
     backgroundColor: "#6495ED",
-    borderWidth: 5,
+    borderWidth: 4,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20
   },
