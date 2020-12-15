@@ -16,17 +16,17 @@ class AboutUs extends React.Component {
       <View style={styles.bottom}>
         <Text style={styles.header1}>How is religious belief / sexual orientation / health / political opinion data protected?</Text>
         <Text style={styles.header2}>answer</Text>
-        <Text style={styles.paragragh}>The following special categories of personal data are considered "sensitive" and enjoy special protection under the General Data Protection Regulation:
+        <Text style={styles.paragragh}>The following special categories of personal data are considered "sensitive" and enjoy special protection under the General Data Protection Regulation:</Text>
 
-racial or ethnic origin;
-political opinions;
-religious or ideological beliefs;
-Union membership;
-Processing of genetic data;
-biometric data for the unique identification of a natural person;
-Health;
-Sex life or sexual orientation.
-In principle , the processing of the aforementioned types of data is prohibited . However, there are certain exceptions in which companies or organizations are allowed to process sensitive personal data, e.g. B. if
+<Text>- racial or ethnic origin;</Text>
+<Text>- political opinions;</Text>
+<Text>- religious or ideological beliefs;</Text>
+<Text>- Union membership;</Text>
+<Text>- Processing of genetic data;</Text>
+<Text>- biometric data for the unique identification of a natural person;</Text>
+<Text>- Health;</Text>
+<Text>- Sex life or sexual orientation.</Text>
+<Text style={styles.paragragh}> In principle , the processing of the aforementioned types of data is prohibited . However, there are certain exceptions in which companies or organizations are allowed to process sensitive personal data, e.g. B. if
 
 You have obviously made your sensitive information public;
 You have given your express consent;

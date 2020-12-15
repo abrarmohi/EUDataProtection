@@ -26,7 +26,7 @@ class HomeScreen extends React.Component {
                 />
                 <Mybutton
                 title="EU Data Law"
-                //customClick={() => this.props.navigation.navigate('Register')}
+                customClick={() => this.props.navigation.navigate('EuLaw')}
                 />
                 <Mybutton
                 title="About Us"
