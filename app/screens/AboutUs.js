@@ -125,7 +125,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   textHeader: {
-    marginTop: 17,
+    marginTop: 30,
+    marginBottom: 20,
     borderRadius: 7,
     fontSize: 16,
     borderWidth: 1,

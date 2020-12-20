@@ -166,9 +166,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   textHeader: {
-    marginTop: 17,
+    marginTop: 30,
+    marginBottom: 20,
     borderRadius: 7,
-    fontSize: 13,
+    fontSize: 16,
     borderWidth: 1,
     backgroundColor: tertColor,
     borderColor: mainColor,
@@ -189,17 +190,17 @@ const styles = StyleSheet.create({
     marginLeft: 3,
     maxWidth: 117,
     color: mainColor,
-    fontSize: 13,
+    fontSize: 16,
   },
   text: {
     marginLeft: 3,
     color: mainColor,
-    fontSize: 13,
+    fontSize: 16,
   },
   textLink: {
     marginLeft: 3,
     color: mainColor1,
-    fontSize: 13,
+    fontSize: 16,
   },
   text1: {
     marginLeft: 3,

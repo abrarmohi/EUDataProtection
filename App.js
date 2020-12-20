@@ -16,12 +16,12 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="EU DATA PROTECTION APP" component={HomeScreen} />
-        <Stack.Screen name="EU data law" component={EuLaw} />
+        <Stack.Screen name="EU Data Law" component={EuLaw} />
         <Stack.Screen name="Input" component={InputScreen} />
         <Stack.Screen name="Result" component={ResultScreen} />
-        <Stack.Screen name="First aid" component={FirstAid} />
-        <Stack.Screen name="About us" component={AboutUs} />
+        <Stack.Screen name="First Aid" component={FirstAid} />
+        <Stack.Screen name="About Us" component={AboutUs} />
       </Stack.Navigator>
     </NavigationContainer>
-  );
+  )
 }
