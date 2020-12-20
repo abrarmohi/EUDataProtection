@@ -9,6 +9,7 @@ import {
   View,
   Image,
   ScrollView,
+  Linking,
 } from "react-native";
 
 class AboutUs extends React.Component {
