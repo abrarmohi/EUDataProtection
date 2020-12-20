@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, SafeAreaView, Linking } from "react-native";
+import { View, StyleSheet, Text, SafeAreaView } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import { Flag } from "react-native-svg-flagkit";
 
@@ -32,7 +32,7 @@ class ResultScreen extends React.Component {
             </View>
           </View>
           <View style={styles.container1}>
-            <View style={styles.container4}>
+            <View style={styles.container2}>
               <View style={styles.container3}>
                 <Text style={styles.textHeader1}> DATA COMMISSIONER </Text>
                 <Text style={styles.text1}>{country.dataCommissioner}</Text>
@@ -52,33 +52,15 @@ class ResultScreen extends React.Component {
               </View>
               <View style={styles.container3}>
                 <Text style={styles.textHeader}> TELEPHONE </Text>
-                <Text
-                  style={styles.textLink}
-                  onPress={() => Linking.openURL("tel:" + country.telephone)}
-                >
-                  {country.telephone}
-                </Text>
+                <Text style={styles.text}>{country.telephone}</Text>
               </View>
               <View style={styles.container3}>
                 <Text style={styles.textHeader}> E-MAIL </Text>
-                <Text
-                  style={styles.textLink}
-                  onPress={() => Linking.openURL("mailto:" + country.email)}
-                >
-                  {country.email}
-                </Text>
+                <Text style={styles.text}>{country.email}</Text>
               </View>
               <View style={styles.container3}>
                 <Text style={styles.textHeader}> HOMEPAGE </Text>
-                <Text
-                  style={styles.textLink}
-                  onPress={() => Linking.openURL(country.homepage)}
-                >
-                  {country.homepage}
-                </Text>
-              </View>
-              <View style={styles.container3}>
-                <Text style={styles.text}>{"  " + "\n" + "  "}</Text>
+                <Text style={styles.text}>{country.homepage}</Text>
               </View>
               <View style={styles.container3}>
                 <Text style={styles.textHeader}> SPECIFIC LAW </Text>
@@ -88,9 +70,6 @@ class ResultScreen extends React.Component {
                 <Text style={styles.textHeader}> MOST RECENT LAW CASES </Text>
                 <Text style={styles.text}>{country.mostRecentLawCases}</Text>
               </View>
-              <View style={styles.container3}>
-                <Text style={styles.text}>{"  "}</Text>
-              </View>
             </View>
           </View>
         </ScrollView>
@@ -99,8 +78,7 @@ class ResultScreen extends React.Component {
   }
 }
 
-const mainColor = "#000";
-const mainColor1 = "#003399";
+const mainColor = "#003399";
 //const mainColor = "#fff";
 const tertColor = "#fff";
 //const tertColor = "#000";
@@ -129,13 +107,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "stretch",
   },
-  container4: {
-    backgroundColor: tertColor,
-    flexDirection: "column",
-    justifyContent: "space-between",
-    alignItems: "stretch",
-    width: "100%",
-  },
   container3: {
     backgroundColor: tertColor,
     flexDirection: "column",
@@ -144,50 +115,39 @@ const styles = StyleSheet.create({
   },
   flagBox: {
     backgroundColor: mainColor,
-    padding: 2,
+    padding: 3,
     borderRadius: 3,
     alignSelf: "flex-start",
   },
   textHeader2: {
+    backgroundColor: mainColor,
     borderRadius: 7,
+    color: tertColor,
     fontSize: 14,
-    borderWidth: 1,
-    backgroundColor: tertColor,
-    borderColor: mainColor,
-    color: mainColor,
   },
   textHeader: {
     marginTop: 17,
+    backgroundColor: mainColor,
     borderRadius: 7,
+    color: tertColor,
     fontSize: 14,
-    borderWidth: 1,
-    backgroundColor: tertColor,
-    borderColor: mainColor,
-    color: mainColor,
   },
   textHeader1: {
     marginTop: 17,
+    backgroundColor: mainColor,
     borderRadius: 7,
+    color: tertColor,
     fontSize: 19,
-    borderWidth: 1,
-    backgroundColor: tertColor,
-    borderColor: mainColor,
-    color: mainColor,
   },
   textShort: {
     marginLeft: 3,
-    maxWidth: 137,
+    maxWidth: 145,
     color: mainColor,
     fontSize: 14,
   },
   text: {
     marginLeft: 3,
     color: mainColor,
-    fontSize: 14,
-  },
-  textLink: {
-    marginLeft: 3,
-    color: mainColor1,
     fontSize: 14,
   },
   text1: {
