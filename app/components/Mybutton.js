@@ -1,7 +1,7 @@
 /*Custom Button*/
-import React from 'react';
+import React from "react";
 //import props from'prop-types';
-import {TouchableOpacity, Text, StyleSheet} from 'react-native';
+import { TouchableOpacity, Text, StyleSheet } from "react-native";
 const Mybutton = (props) => {
   return (
     <TouchableOpacity style={styles.button} onPress={props.customClick}>
@@ -11,19 +11,17 @@ const Mybutton = (props) => {
 };
 const styles = StyleSheet.create({
   button: {
-    alignItems: 'center',
-    backgroundColor: '#08146e',
-    color: '#ffffff',
+    color: "#ffffff",
     padding: 10,
-    marginTop: 16,
-    marginLeft: 35,
-    marginRight: 35,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: '#fff',
+    borderRadius: 15,
+    borderWidth: 0,
+    borderColor: "#000",
+    fontSize: 22,
   },
   text: {
-    color: '#ffffff',
+    textAlign: "left",
+    fontSize: 17,
+    color: "#000",
   },
 });
 export default Mybutton;

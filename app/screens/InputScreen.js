@@ -1,6 +1,6 @@
-import React from 'react';
-import { StyleSheet, SafeAreaView, Button,Text } from 'react-native';
-import { Picker } from '@react-native-picker/picker'
+import React from "react";
+import { StyleSheet, SafeAreaView, Button, Text } from "react-native";
+import { Picker } from "@react-native-picker/picker";
 
 class InputScreen extends React.Component {
   state = {
@@ -13,9 +13,13 @@ class InputScreen extends React.Component {
         <Picker
           selectedValue={this.state.country}
           style={styles.picker}
-          onValueChange={(value) =>
-            this.setState({country: value})
-        }>
+          onValueChange={(value) => {
+            this.setState({ country: value });
+            this.props.navigation.navigate("Result", {
+              country: value,
+            });
+          }}
+        >
           <Picker.Item label="Austria" value="austria" />
           <Picker.Item label="Belgium" value="belgium" />
           <Picker.Item label="Bulgaria" value="bulgaria" />
