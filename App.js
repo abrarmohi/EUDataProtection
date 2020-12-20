@@ -6,6 +6,8 @@ import HomeScreen from "./app/screens/HomeScreen";
 import InputScreen from "./app/screens/InputScreen";
 import ResultScreen from "./app/screens/ResultScreen";
 import AboutUs from "./app/screens/AboutUs";
+import EuLaw from "./app/screens/EuLaw";
+import FirstAid from "./app/screens/FirstAid";
 
 const Stack = createStackNavigator();
 
@@ -14,9 +16,11 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="EU DATA PROTECTION APP" component={HomeScreen} />
+        <Stack.Screen name="EU data law" component={EuLaw} />
         <Stack.Screen name="Input" component={InputScreen} />
         <Stack.Screen name="Result" component={ResultScreen} />
-        <Stack.Screen name="AboutUs" component={AboutUs} />
+        <Stack.Screen name="First aid" component={FirstAid} />
+        <Stack.Screen name="About us" component={AboutUs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

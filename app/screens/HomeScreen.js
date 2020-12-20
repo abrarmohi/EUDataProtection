@@ -81,15 +81,21 @@ class HomeScreen extends React.Component {
         </TouchableOpacity>
         <TouchableOpacity style={styles.picker1}>
           <Mybutton
-            title="EU Data Law"
-            //customClick={() => this.props.navigation.navigate('Register')}
+            title="EU data law"
+            customClick={() => this.props.navigation.navigate("EU data law")}
+          />
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.picker1}>
+          <Mybutton
+            title="First aid"
+            customClick={() => this.props.navigation.navigate("First aid")}
           />
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.picker1}>
           <Mybutton
-            title="About Us"
-            customClick={() => this.props.navigation.navigate("AboutUs")}
+            title="About us"
+            customClick={() => this.props.navigation.navigate("About us")}
           />
         </TouchableOpacity>
       </SafeAreaView>
