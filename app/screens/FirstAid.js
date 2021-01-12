@@ -22,9 +22,9 @@ class FirstAid extends React.Component {
               <View style={styles.container3}>
                 <Text style={styles.textHeader}>
                   {" "}
-                  The following special categories of {"\n"} personal data are
-                  considered "sensitive" {"\n"} and enjoy special protection
-                  under the {"\n"} General Data Protection Regulation:{" "}
+                  The following special categories of personal data are
+                  considered "sensitive" and enjoy special protection under the
+                  General Data Protection Regulation:{" "}
                 </Text>
                 <Text style={styles.text}>- Racial or ethnic origin</Text>
                 <Text style={styles.text}>- Political opinions</Text>
@@ -46,21 +46,16 @@ class FirstAid extends React.Component {
               <View style={styles.container3}>
                 <Text style={styles.textHeader}>
                   {" "}
-                  In principle , the processing of the {"\n"} aforementioned
-                  types of data is prohibited. {"\n"} However, there are certain
-                  exceptions {"\n"} in which companies or organizations are
-                  {" \n "}
-                  allowed to process sensitive personal data, {"\n"} e.g. B. if
-                  You have obviously made your {"\n"} sensitive information
-                  public; You have {"\n"} given your express consent; a law
-                  regulates {"\n"} a certain type of data processing for a
-                  {" \n "}
-                  certain purpose for reasons of public {"\n"} interest or
-                  public health; a law that includes {"\n"} appropriate
-                  safeguards for processing {"\n"} sensitive personal data in
-                  areas such {"\n"} as public health, employment and social
-                  {" \n "}
-                  protection.
+                  In principle , the processing of the aforementioned types of
+                  data is prohibited. However, there are certain exceptions in
+                  which companies or organizations are allowed to process
+                  sensitive personal data, e.g. B. if You have obviously made
+                  your sensitive information public; You have given your express
+                  consent; a law regulates a certain type of data processing for
+                  a certain purpose for reasons of public interest or public
+                  health; a law that includes appropriate safeguards for
+                  processing sensitive personal data in areas such as public
+                  health, employment and social protection.
                 </Text>
                 <Text style={styles.text}>
                   The National Bureau of Statistics (a government agency)
@@ -77,8 +72,7 @@ class FirstAid extends React.Component {
 
               <View style={styles.container3}>
                 <Text style={styles.textHeader}>
-                  {" "}
-                  Can personal data be collected from {"\n"} children?{" "}
+                  Can personal data be collected from children?
                 </Text>
                 <Text style={styles.text}>
                   Additional protection is provided for this type of personal
@@ -198,8 +192,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   textHeader: {
-    marginTop: 30,
-    marginBottom: 20,
+    marginTop: 17,
     borderRadius: 7,
     fontSize: 16,
     borderWidth: 1,
