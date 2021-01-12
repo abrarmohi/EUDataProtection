@@ -1,9 +1,18 @@
 import React from "react";
-import { View, StyleSheet, Text, SafeAreaView, Linking } from "react-native";
+import {
+  View,
+  StyleSheet,
+  Text,
+  SafeAreaView,
+  Linking,
+  Dimensions,
+} from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import { Flag } from "react-native-svg-flagkit";
 
 const database = require("../database/database.json");
+
+let screenWidth = Dimensions.get("window").width;
 
 class ResultScreen extends React.Component {
   render() {
@@ -19,11 +28,17 @@ class ResultScreen extends React.Component {
                 {country.name.toUpperCase()}
               </Text>
               <View style={styles.container3}>
-                <Text style={styles.textHeader2}> CAPITAL </Text>
+                <Text numberOfLines={1} style={styles.textHeader2}>
+                  {" "}
+                  CAPITAL{" "}
+                </Text>
                 <Text style={styles.textShort}>{country.capital}</Text>
               </View>
               <View style={styles.container3}>
-                <Text style={styles.textHeader2}> POPULATION </Text>
+                <Text numberOfLines={1} style={styles.textHeader2}>
+                  {" "}
+                  POPULATION{" "}
+                </Text>
                 <Text style={styles.textShort}>{country.population}</Text>
               </View>
             </View>
@@ -149,13 +164,13 @@ const styles = StyleSheet.create({
     alignSelf: "flex-start",
   },
   textHeader2: {
+    maxWidth: screenWidth - 290,
     borderRadius: 7,
     fontSize: 16,
     borderWidth: 1,
     backgroundColor: tertColor,
     borderColor: mainColor,
     color: mainColor,
-    fontWeight: "bold",
   },
   textHeader: {
     marginTop: 17,
@@ -165,12 +180,11 @@ const styles = StyleSheet.create({
     backgroundColor: tertColor,
     borderColor: mainColor,
     color: mainColor,
-    fontWeight: "bold",
   },
   textHeader1: {
     marginTop: 17,
     borderRadius: 7,
-    fontSize: 22,
+    fontSize: 16,
     borderWidth: 1,
     backgroundColor: tertColor,
     borderColor: mainColor,
@@ -179,7 +193,7 @@ const styles = StyleSheet.create({
   },
   textShort: {
     marginLeft: 3,
-    maxWidth: 117,
+    maxWidth: screenWidth - 290,
     color: mainColor,
     fontSize: 16,
   },
@@ -196,11 +210,11 @@ const styles = StyleSheet.create({
   text1: {
     marginLeft: 3,
     color: mainColor,
-    fontSize: 22,
+    fontSize: 16,
   },
   headline: {
     color: mainColor,
-    width: 137,
+    width: screenWidth - 290,
     fontSize: 22,
     fontWeight: "bold",
   },
