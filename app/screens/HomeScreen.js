@@ -8,6 +8,7 @@ import {
   Image,
   TouchableOpacity,
   Dimensions,
+  Platform
 } from "react-native";
 
 import { Picker } from "@react-native-picker/picker";
